@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\Tests\state_machine\StateItem;
+namespace Drupal\Tests\state_machine\Kernel;
 
 use Drupal\entity_test\Entity\EntityTest;
 use Drupal\field\Entity\FieldConfig;
