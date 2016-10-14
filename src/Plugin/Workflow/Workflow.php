@@ -166,7 +166,7 @@ class Workflow extends PluginBase implements WorkflowInterface, ContainerFactory
         return $transition;
       }
     }
-    // No transition found.
+
     return FALSE;
   }
 
