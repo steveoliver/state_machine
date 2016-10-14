@@ -16,8 +16,8 @@ class WorkflowTransitionEventSubscriber implements EventSubscriberInterface {
    */
   public static function getSubscribedEvents() {
     $events = [
-      'order.cancel.pre_transition' => 'cancelPresaveReaction',
-      'order.cancel.post_transition' => 'cancelPostsaveReaction',
+      'entity_test.cancel.pre_transition' => 'cancelPresaveReaction',
+      'entity_test.cancel.post_transition' => 'cancelPostsaveReaction',
     ];
     return $events;
   }
